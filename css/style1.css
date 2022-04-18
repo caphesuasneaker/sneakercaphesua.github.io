@@ -123,9 +123,9 @@ input{
   }
 
 .head{
-  height: 20px;
-  padding: 5px 0 0 30px;
-
+  height: 50px;
+  padding: 10px 0 0 30px;
+  background-color: #F2F2F2;
 }
 .column{
   display: flex;
@@ -136,26 +136,30 @@ input{
 }
 img{
   width: 100%;
+
 }
 .content{
   width: 50%;
+  padding-left: 80px;
 }
 .all{
   width: 50%;
   height: 150px;
-  padding-left: 80px;
-  margin-top: 40px;
+  padding-left: 40px;
+  margin-top: 30px;
 }
-td{
-  border: 1px solid black;
-  text-align: center;
-  width: 35px;
-  height: 25px;
+.row input{
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 8px 14px;
+  border: none;
+  cursor:pointer;
+  background-color:#F2F2F2 ;
+  border: 1px solid gray;
 }
-table{
-  border: 1px solid black;
-  border-collapse: collapse;
-  margin-bottom: 10px;
+.row{
+  letter-spacing: 10px;
+  padding-bottom: 10px;
 }
 
 .iconn{
@@ -169,6 +173,7 @@ h2{
 }
 .all p{
   font-size: 20px;
+  padding-bottom: 5px;
 }
 .button{
     font-size: 13px;
@@ -177,7 +182,7 @@ h2{
     border-radius: 10px;
     padding: 10px;
     border: none;
-    margin-top: 20px;
+    margin-top: 10px;
     cursor:pointer;
 }
   

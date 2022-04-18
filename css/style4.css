@@ -122,8 +122,9 @@ input{
     }
   }
   .head{
-    height: 20px;
-    padding: 5px 0 0 30px;
+    height: 50px;
+    padding: 10px 0 0 30px;
+    background-color: #F2F2F2;
   
   }
   .column{
@@ -145,18 +146,18 @@ input{
     padding-left: 80px;
     margin-top: 40px;
   }
-  td{
-    border: 1px solid black;
-    text-align: center;
-    width: 35px;
-    height: 25px;
+  .row input{
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 8px 14px;
+    border: none;
+    cursor:pointer;
+    background-color:#F2F2F2 ;
+    border: 1px solid gray;
   }
-  table{
-    border: 1px solid black;
-    border-collapse: collapse;
-    margin-bottom: 10px;
+  .row{
+    letter-spacing: 10px;
   }
-  
   .iconn{
     justify-content: space-between;
   }

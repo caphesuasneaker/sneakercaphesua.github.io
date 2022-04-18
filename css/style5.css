@@ -122,8 +122,9 @@ input{
     }
   }
   .head{
-    height: 20px;
-    padding: 5px 0 0 30px;
+    height: 50px;
+    padding: 10px 0 0 30px;
+    background-color: #F2F2F2;
   
   }
   .column{
@@ -138,11 +139,12 @@ input{
   }
   .content{
     width: 50%;
+    padding-left: 70px;
   }
   .all{
     width: 50%;
     height: 150px;
-    padding-left: 80px;
+    padding-left: 10px;
     margin-top: 40px;
   }
   
