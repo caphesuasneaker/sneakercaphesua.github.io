@@ -133,12 +133,16 @@ input{
       border: 1px solid #ccc;  
     }
   }
-  .head{
+.head{
     height: 20px;
     padding: 5px 0 0 30px;
-  }
+}
 .content {
-  width: 50%;
+    width: 10%;
+    height: 200px;
+}
+img{
+  width: 10%;
 }
 .column{
   display: flex;
@@ -147,11 +151,9 @@ input{
   padding: 30px 150px 60px 150px;
   line-height: 50px;
 }
-img{
-  width: 100%;
-}
+
 .all{
-  width: 50%;
+  width: 80%;
   height: 150px;
   padding-left: 80px;
   margin-top: 40px;
