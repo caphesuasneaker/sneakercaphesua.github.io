@@ -76,7 +76,6 @@ for (var i = 0; i < add_cart.length; i++) {
     addItemToCart(title, price, img)
     // Khi thêm sản phẩm vào giỏ hàng thì sẽ hiển thị modal
     modal.style.display = "block";
-    
     updatecart()
   })
 }
