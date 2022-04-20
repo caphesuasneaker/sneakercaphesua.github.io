@@ -164,8 +164,8 @@ h2{
   height: 32px;
   padding: 2px;
 }
-.btn-cart{
-    font-size: 13px;
+.btn-cart, .product-content-right-product-button .btn{
+    font-size: 15px;
     background: #733C3C;
     color: white;
     border-radius: 10px;
@@ -391,6 +391,12 @@ h5.modal-title {
   color: #333;
   font-size: 1.1em;
 }
-
-  
-    
+.csht{
+  padding-top: 10px;
+  font-size: 20px ;
+}
+.csht a{
+  border-bottom: dashed #d7d7d7;
+  border-bottom-width: 1px;
+  color:dimgray;
+}
