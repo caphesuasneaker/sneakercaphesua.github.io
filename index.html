@@ -26,11 +26,38 @@
         </div>  
         
         <div class="icon">
-            <input type="text">
+            <input type="text" name="search" placeholder="Tìm kiếm sản phẩm..." />
             <a href=""><i class="fas fa-search"></i></a>
             <a href="sign-in.html"><i class="far fa-user"></i></a>
-            <a href=""><i class="far fa-shopping-bag"></i></a>
         </div>
+        <button id="cart">
+            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+        </button>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Giỏ Hàng</h5>
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="cart-row">
+                        <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+                        <span class="cart-price cart-header cart-column">Giá</span>
+                        <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+                    </div>
+                    <div class="cart-items">
+                        
+                    </div>   
+                    <br>
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary close-footer">Đóng</button>
+                    <button type="button" class="btn btn-primary order">Thanh Toán</button>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 
     <h1 align="center" class="all">SNEAKER/ GIÀY</h1>
@@ -159,4 +186,5 @@
         <p>Copyright © 2021 Caphesua. All rights reserved.</p>
     </div>
 </body>
+<script src="java.js"></script>
 </html>

@@ -27,10 +27,38 @@
     </div>
 
     <div class="icon">
-        <input type="text">
+      <input type="text" name="search" placeholder="Tìm kiếm sản phẩm..." />
         <a href=""><i class="fas fa-search"></i></a>
         <a href="sign-in.html"><i class="far fa-user"></i></a>
-        <a href=""><i class="far fa-shopping-bag"></i></a>
+    </div>
+    <button id="cart">
+      <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+    </button>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title">Giỏ Hàng</h5>
+              <span class="close">&times;</span>
+          </div>
+          <div class="modal-body">
+              <div class="cart-row">
+                  <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+                  <span class="cart-price cart-header cart-column">Giá</span>
+                  <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+              </div>
+              <div class="cart-items">
+                
+              </div> 
+              <div class="cart-total">
+                <strong class="cart-total-title">Tổng Cộng:</strong>
+                <span class="cart-total-price">0VNĐ</span>
+              </div>   
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary close-footer">Đóng</button>
+              <button type="button" class="btn btn-primary order">Thanh Toán</button>
+          </div>
+      </div>
     </div>
   </div>
 
@@ -39,11 +67,11 @@
     </div>
     <div class="column">
       <div class="content">
-            <img src="https://sneakerholicvietnam.vn/wp-content/uploads/2022/04/nike-air-force-1-low-pecan-dh7561-100-1-600x600.jpg"alt="">
+            <img class="img-prd" src="https://sneakerholicvietnam.vn/wp-content/uploads/2022/04/nike-air-force-1-low-pecan-dh7561-100-1-600x600.jpg"alt="">
       </div> 
       <div class="all">
-        <h2>Nike air force 1 low-pecan</h2>
-        <p> Giá: 3.500.000₫</p>
+        <h2 class="content-product-h2">Nike air force 1 low-pecan</h2>
+        <span class="price"> Giá: 3500000₫</span>
         <p style="color: red;">Vui lòng chọn size</p>
         <div class="row">
           <input type="button" value="37">
@@ -53,13 +81,13 @@
           <input type="button" value="41">
         </div>
         <div class="quantity">
-        <p>Số lượng: <input type="number" min="0" value="1"></p>
+        Số lượng: <input type="number" min="0" value="1">
         </div>
         <div class="product-content-right-product-button">
-          <input class="button" type="button" name="btnAlert" value="THÊM VÀO GIỎ HÀNG">
+          <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
         </div>
         <div class="product-content-right-product-button">
-          <input class="button" type="button" name="btnAlert" value="TÌM TẠI CỬA HÀNG">
+          <button type="button" class="btn btn-cart">Tìm tại của hàng</button>
         </div>
       </div>
     </div>
@@ -97,5 +125,6 @@
       <p>Copyright © 2021 Caphesua. All rights reserved.</p>
   </div>
 </body>
+<script src="java.js"></script>
 </html>
     
