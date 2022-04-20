@@ -86,7 +86,7 @@ function addItemToCart(title, price, img) {
   var cart_title = cartItems.getElementsByClassName('cart-item-title')
   for (var i = 0; i < cart_title.length; i++) {
     if (cart_title[i].innerText == title) {
-      alert('Sản Phẩm Đã Có Trong Giỏ Hàng')
+      
       return
     }
   }

@@ -30,7 +30,35 @@
       <input type="text" name="search" placeholder="Tìm kiếm sản phẩm..." />
         <a href=""><i class="fas fa-search"></i></a>
         <a href="sign-in.html"><i class="far fa-user"></i></a>
-        <a href=""><i class="far fa-shopping-bag"></i></a>
+    </div>
+    <button id="cart">
+      <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+    </button>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title">Giỏ Hàng</h5>
+              <span class="close">&times;</span>
+          </div>
+          <div class="modal-body">
+              <div class="cart-row">
+                  <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+                  <span class="cart-price cart-header cart-column">Giá</span>
+                  <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+              </div>
+              <div class="cart-items">
+                
+              </div> 
+              <div class="cart-total">
+                <strong class="cart-total-title">Tổng Cộng:</strong>
+                <span class="cart-total-price">0VNĐ</span>
+              </div>   
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary close-footer">Đóng</button>
+              <button type="button" class="btn btn-primary order">Thanh Toán</button>
+          </div>
+      </div>
     </div>
   </div>
 
@@ -43,7 +71,7 @@
     </div> 
     <div class="all">
       <h2 class="content-product-h2">MLB Mule NY - Black</h2>
-      <p class="price"> Giá: 1.400.000₫</p>
+      <div class="gia"> Giá: <span class="price"> 1400000₫</span></div>
       <p style="color: red;">Vui lòng chọn size</p>
       <div class="row">
         <input type="button" value="37">
@@ -52,15 +80,16 @@
         <input type="button" value="40">
         <input type="button" value="41">
       </div>
-      <div class="quantity">
-      <p>Số lượng: <input type="number" min="0" value="1"></p>
+      <div class="product-content-right-product-button">
+        <button type="button" class="btn btn-cart">Thêm Vào Giỏ</button>
       </div>
       <div class="product-content-right-product-button">
-       <button> <i class="fa fa-shopping-cart" aria-hidden="true"> THÊM VÀO GIỎ HÀNG </i></button>
+        <button type="button" class="btn">Tìm tại cửa hàng</button>
       </div>
-      <div class="product-content-right-product-button">
-       <button> TÌM TẠI CỬA HÀNG</button>
-      </div>
+      <div class="csht">
+        <a href="doitra.html">Các chính sách đổi trả</a> <br>
+        <a href="thanhtoan.html">Các hình thức thanh toán</a>
+       </div>
     </div>
   </div>
 
@@ -98,4 +127,5 @@
     <p>Copyright © 2021 Caphesua. All rights reserved.</p>
 </div>
 </body>
+<script src="java.js"></script>
 </html>
